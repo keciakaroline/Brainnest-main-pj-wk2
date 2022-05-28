@@ -1,0 +1,92 @@
+body {
+	font-family: "Roboto", sans-serif;
+}
+nav,
+footer {
+	background-color: #1f2937;
+	color: #f9faf8;
+}
+
+nav .nav-link,
+nav .navbar-brand {
+	color: #f9faf8;
+	text-decoration: none;
+}
+
+nav .navbar-brand {
+	font-size: 24px;
+}
+
+header {
+	background-color: #1f2937;
+}
+
+header h1 {
+	font-size: 48px;
+	font-weight: bolder;
+	color: #f9faf8;
+}
+
+header p {
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.info h1 {
+	font-size: 36px;
+	font-weight: bolder;
+	color: #1f2937;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.info ul,
+.info p {
+	list-style: none;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0px 60px 5px 0px;
+}
+
+.info .img-info {
+	border: 3px solid #3882f6;
+	border-radius: 10px;
+	padding: 90px 0px;
+	margin: 40px 60px 5px 0px;
+}
+
+section.quote {
+	background-color: #e5e7eb;
+	margin-top: 50px;
+	font-size: 36px;
+	text-align: justify;
+	padding: 50px 540px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.quote .quote-sign {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: right;
+}
+
+section.call-to-action {
+	background-color: #3882f6;
+	color: #e5e7eb;
+}
+section.call-to-action button {
+	border: 1px solid #e5e7eb;
+}
+
+button {
+	background-color: #3882f6;
+	color: #e5e7eb;
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+}
