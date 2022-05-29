@@ -1,35 +1,61 @@
 body {
 	font-family: "Roboto", sans-serif;
 }
-nav,
-footer {
+
+nav {
 	background-color: #1f2937;
-	color: #f9faf8;
+	padding: 5px 250px;
+	margin: 0 auto;
+	display: inline-flex;
 }
 
-nav .nav-link,
-nav .navbar-brand {
+.navbar-brand,
+.nav-link {
 	color: #f9faf8;
 	text-decoration: none;
 }
 
 nav .navbar-brand {
 	font-size: 24px;
+	flex: 70;
 }
 
 header {
 	background-color: #1f2937;
+	display: inline-grid;
+	padding: 100px 250px;
+	grid-template-columns: 1fr 1.2fr;
+	gap: 0px 50px;
 }
 
-header h1 {
+.hero h1 {
 	font-size: 48px;
 	font-weight: bolder;
 	color: #f9faf8;
 }
 
-header p {
+.hero p {
 	font-size: 18px;
 	color: #e5e7eb;
+}
+
+div.img-hero {
+	background-color: rgba(157, 157, 157, 0.604);
+	border: 1px solid rgba(157, 157, 157, 0.604);
+	color: #e5e7eb;
+	height: 300px;
+	width: auto;
+	text-align: center;
+	padding-top: 130px;
+	font-size: 18px;
+}
+
+.hero button {
+	background-color: #3882f6;
+	color: #e5e7eb;
+	padding: 7px 33px;
+	border: 1px solid #3882f6;
+	border-radius: 10px;
 }
 
 .info h1 {
@@ -40,21 +66,29 @@ header p {
 	margin-top: 30px;
 }
 
-.info ul,
-.info p {
+.info .container-img {
+	display: inline-grid;
+	align-items: center;
+	margin: 0 auto;
+	padding: 20px 300px;
+	grid-template-columns: repeat(4, 1fr);
+	column-gap: 10px;
+}
+
+ul.container-img,
+.container-img p {
 	list-style: none;
 	align-items: center;
+	margin: 15px 55px 0px 15px;
 	text-align: center;
-	display: flex;
-	justify-content: space-evenly;
-	margin: 0px 60px 5px 0px;
 }
 
 .info .img-info {
 	border: 3px solid #3882f6;
 	border-radius: 10px;
-	padding: 90px 0px;
-	margin: 40px 60px 5px 0px;
+	padding: 90px 10px;
+	width: 180px;
+	margin: 20px 5px 5px 5px;
 }
 
 section.quote {
@@ -62,31 +96,53 @@ section.quote {
 	margin-top: 50px;
 	font-size: 36px;
 	text-align: justify;
-	padding: 50px 540px;
+	padding: 100px 350px;
 	font-weight: 300;
 	font-style: italic;
 }
 
 .quote .quote-sign {
-	font-size: 30px;
+	font-size: 26px;
 	font-weight: bold;
 	text-align: right;
 }
 
 section.call-to-action {
+	margin: 80px 200px;
 	background-color: #3882f6;
+	border: 1px solid #3882f6;
+	border-radius: 6px;
 	color: #e5e7eb;
-}
-section.call-to-action button {
-	border: 1px solid #e5e7eb;
+	padding: 30px 150px;
+	display: inline-grid;
+	grid-template-columns: 3fr 1fr;
+	gap: 0px 250px;
 }
 
-button {
-	background-color: #3882f6;
+.call-to-action h1 {
+	font-size: 24px;
+}
+
+.call-to-action p {
+	width: max-content;
+}
+
+section.call-to-action button {
+	border: 2px solid #e5e7eb;
 	color: #e5e7eb;
+	background-color: #3882f6;
+	border-radius: 6px;
+	width: 150px;
+	height: 45px;
+	align-items: center;
+	text-align: center;
+	margin-top: 20px;
 }
 
 footer {
+	background-color: #1f2937;
+	color: #f9faf8;
 	padding: 20px;
 	text-align: center;
+	font-size: 14px;
 }
